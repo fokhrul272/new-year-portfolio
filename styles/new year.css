@@ -1,0 +1,141 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+.header{
+background-image: url('../resources/Banner\ Image.png');
+width: 1320px;
+background-repeat: no-repeat;
+background-position: bottom middle;
+margin: 130px auto;
+border-radius: 16px;
+
+}
+.banner{
+padding: 30px 30px 290px 30px;
+text-align: center;
+margin-bottom: auto;
+}
+.banner-title{
+color: #FFFFFF;
+font-size: 32px;
+font-weight: regular;
+width: 259px;
+text-align: center;
+margin: auto
+}
+.banner-description{
+color: #FFFFFF;
+font-size: 72px;
+font-weight:bold;
+width: 632px;
+margin: auto;
+}
+/* main related styles */
+/* section related styles */
+.offer{
+text-align: center;
+}
+.offer-title{
+color: #FF0000;
+font-size: 88px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.offer-greeting{
+    color:#FF0000;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 5px;
+
+}
+.offer-description{
+color:#070211;
+font-size: 48px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+.profile-pic{
+    margin-top: 0px;
+    max-width: 800px;
+}
+
+/* welcome related styles */
+.welcome-section{
+    background-image: url('../resources/Group\ 70.png'), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    margin: 130px auto;
+    background-position: top right;
+
+}
+.welcome-container{
+    padding: 50px 350px 250px 30px;
+    text-align: left;
+
+}
+.welcome-title{
+color:#FFFFFF;
+font-size: 64px;
+font-weight: bold;
+max-width: 642px;
+margin-bottom: 20px;
+}
+.welcome-description{
+color: #FFFFFF;
+font-size: 18px;
+font-weight: regular;
+width: 697px;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+.btn-primary{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 10px;
+    background-color: black;
+}
+/* portfolio section related styles */
+.portfolio-section-container{
+    max-width: 1320px;
+    margin: 130px auto;
+
+}
+.portfolio-section{
+    text-align: left;
+
+}
+.portfolio-greeting{
+color: #FF0000;
+font-size: 24px;
+font-weight: medium;
+margin-bottom: 15px;
+}
+.portfolio-title{
+color:#070211;
+font-size: 48px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+.portfolio-description{
+color: #070211;
+font-size: 20px;
+font-weight: regular;
+margin-top: 0px;
+margin-bottom: 0px;
+width: 896px;
+}
+.image-container{
+margin-top: 30px;
+}
+.image-one{
+    margin-right: 10px;
+}
