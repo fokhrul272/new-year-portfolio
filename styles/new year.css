@@ -1,72 +1,81 @@
-body{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "width" 100;
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
 }
-.header{
-background-image: url('../resources/Banner\ Image.png');
-width: 1320px;
-background-repeat: no-repeat;
-background-position: bottom middle;
-margin: 130px auto;
-border-radius: 16px;
+
+.header {
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    background-repeat: no-repeat;
+    background-position: bottom middle;
+    margin: 130px auto;
+    border-radius: 16px;
 
 }
-.banner{
-padding: 30px 30px 290px 30px;
-text-align: center;
-margin-bottom: auto;
+
+.banner {
+    padding: 30px 30px 290px 30px;
+    text-align: center;
+    margin-bottom: auto;
 }
-.banner-title{
-color: #FFFFFF;
-font-size: 32px;
-font-weight: regular;
-width: 259px;
-text-align: center;
-margin: auto
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: regular;
+    width: 259px;
+    text-align: center;
+    margin: auto
 }
-.banner-description{
-color: #FFFFFF;
-font-size: 72px;
-font-weight:bold;
-width: 632px;
-margin: auto;
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: bold;
+    width: 632px;
+    margin: auto;
 }
+
 /* main related styles */
 /* section related styles */
-.offer{
-text-align: center;
+.offer {
+    text-align: center;
 }
-.offer-title{
-color: #FF0000;
-font-size: 88px;
-font-weight: bold;
-margin-bottom: 20px;
+
+.offer-title {
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-.offer-greeting{
-    color:#FF0000;
+
+.offer-greeting {
+    color: #FF0000;
     font-size: 24px;
     font-weight: medium;
     margin-bottom: 5px;
 
 }
-.offer-description{
-color:#070211;
-font-size: 48px;
-font-weight: bold;
-margin-top: 0px;
-margin-bottom: 20px;
+
+.offer-description {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
-.profile-pic{
+
+.profile-pic {
     margin-top: 0px;
     max-width: 800px;
 }
 
 /* welcome related styles */
-.welcome-section{
+.welcome-section {
     background-image: url('../resources/Group\ 70.png'), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1320px;
@@ -74,68 +83,201 @@ margin-bottom: 20px;
     background-position: top right;
 
 }
-.welcome-container{
+
+.welcome-container {
     padding: 50px 350px 250px 30px;
     text-align: left;
 
 }
-.welcome-title{
-color:#FFFFFF;
-font-size: 64px;
-font-weight: bold;
-max-width: 642px;
-margin-bottom: 20px;
+
+.welcome-title {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+    max-width: 642px;
+    margin-bottom: 20px;
 }
-.welcome-description{
-color: #FFFFFF;
-font-size: 18px;
-font-weight: regular;
-width: 697px;
-margin-top: 0px;
-margin-bottom: 20px;
+
+.welcome-description {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: regular;
+    width: 697px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
-.btn-primary{
-    color:#FFFFFF;
+
+.btn-primary {
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
     border: 0px;
     margin-top: 10px;
     background-color: black;
 }
+
 /* portfolio section related styles */
-.portfolio-section-container{
+.portfolio-section-container {
     max-width: 1320px;
     margin: 130px auto;
 
 }
-.portfolio-section{
+
+.portfolio-section {
     text-align: left;
 
 }
-.portfolio-greeting{
+
+.portfolio-greeting {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 15px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.portfolio-description {
+    color: #070211;
+    font-size: 20px;
+    font-weight: regular;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 896px;
+}
+
+.image-container {
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.image-one {
+    margin-right: 10px;
+}
+
+/* subscribe related styles */
+.subscribe-section-container {
+    background-color: #FD6E0A;
+    max-width: 1320px;
+    margin: 150px auto;
+}
+
+.subscribe-section {
+    max-width: 896px;
+    text-align: center;
+    padding: 30px 50px 50px 50px;
+    margin: 50px auto;
+}
+
+.icon {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.subscribe-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subscribe-description {
+    color: #070211;
+    font-size: 20px;
+    font-weight: regular;
+    margin-top: 20px;
+}
+
+.input-info {
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.input-subscribe {
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FF0000;
+    margin-left: 0%;
+}
+
+/* footer related styles */
+.footer {
+    background-color: #070211;
+    max-width: 1320px;
+    margin: 130px auto;
+    padding: 90px;
+}
+
+.footer-column-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-column {}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.footer-image-container {
+    display: flex;
+    margin: 50px auto;
+}
+.a{
+    max-width: 64px;
+    margin: 50px 20px;
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-around;
+}
+/* best section related styles */
+.best-section-container{
+
+}
+.best-container{
+display: flex;
+width: 1320px;
+margin: 130px auto;
+}
+.best{
+    margin-right: 50px;
+
+}
+.best-greeting{
 color: #FF0000;
 font-size: 24px;
 font-weight: medium;
-margin-bottom: 15px;
 }
-.portfolio-title{
-color:#070211;
+.best-title{
+color: #070211;
 font-size: 48px;
 font-weight: bold;
-margin-top: 0px;
-margin-bottom: 20px;
 }
-.portfolio-description{
+.best-description{
 color: #070211;
 font-size: 20px;
 font-weight: regular;
-margin-top: 0px;
-margin-bottom: 0px;
-width: 896px;
+width: 393px;
 }
-.image-container{
-margin-top: 30px;
-}
-.image-one{
-    margin-right: 10px;
+.best-description-1{
+    width: 276px;
 }
